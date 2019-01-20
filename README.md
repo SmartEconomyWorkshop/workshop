@@ -59,6 +59,10 @@ ssh userX@smarteconomyworkshop.org
 neo-console
 ```
 
+## Bootstrap
+
+If you want to bootstrap the blocks directly to disk, to save some time on syncing, you can download [the workshop bootstrap file](https://static.smarteconomyworkshop.org/bootstrap.tar.gz) and extract it in your `Chains` directory. This should create the `Workshop` and `Workshop_Notif` directories with the blocks. Please make sure to first stop your `neo-python` instance and clear the contents of the `Chains` directory.
+
 # Interacting with your wallet
 
 Once you have your NEO python console open, you can start interacting with your wallet and the blockchain. With the built-in neo-python compiler you can easily compile smart contracts to test them and deploy them. We have already loaded your wallets with some funds so you can get going easily.
