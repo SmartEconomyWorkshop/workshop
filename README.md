@@ -61,5 +61,22 @@ neo-console
 
 # Interacting with your wallet
 
+Once you have your NEO python console open, you can start interacting with your wallet and the blockchain. With the built-in neo-python compiler you can easily compile smart contracts to test them and deploy them. We have already loaded your wallets with some funds so you can get going easily.
+
+  First open and take a look at your personal wallet, the password is `smarteconomy`
+
+```
+wallet open wallet.json
+wallet
+```
+
+If your wallet is not fully synced, your balances will not show up. Make sure that `percent_synced` is at 100% before you continue. If at any time you feel like something is not quite okay with your wallet or balances, you can use `wallet rebuild` to start syncing from scratch. This should take a couple of minutes.
+
+  In the `wallet` overview you can check your address and your address script hash, that should look like this:
+
+```
+Script hash b'\xadU\xc1QmV\x19;\x17\x7flq\xc7\x97\xeb\x18J\xba\x16\xe2' <class 'bytes'>
+```
+
 # Challenges
 
