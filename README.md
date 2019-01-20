@@ -56,8 +56,15 @@ If you are unable to use Docker on your workstation, you can get SSH access to o
 
 ```bash
 ssh userX@smarteconomyworkshop.org
+
+# To connect to the neo-python prompt:
 neo-console
+
+# To open a shell in the container:
+neo-console-shell
 ```
+
+You can always detach from a Docker container with `Ctrl-P-Q`
 
 ## Bootstrap
 
@@ -70,8 +77,16 @@ Once you have your NEO python console open, you can start interacting with your 
   First open and take a look at your personal wallet, the password is `smarteconomy`
 
 ```
+# Open your wallet
 wallet open wallet.json
+
+# Use the password: smarteconomy
+
+# Now check your wallet
 wallet
+
+# We can now add the script hash for the Workshop Euro token:
+wallet import token 0x468d4742becd5512a729aa1565b44589fc31f873
 ```
 
 If your wallet is not fully synced, your balances will not show up. Make sure that `percent_synced` is at 100% before you continue. If at any time you feel like something is not quite okay with your wallet or balances, you can use `wallet rebuild` to start syncing from scratch. This should take a couple of minutes.
@@ -80,6 +95,19 @@ If your wallet is not fully synced, your balances will not show up. Make sure th
 
 ```
 Script hash b'\xadU\xc1QmV\x19;\x17\x7flq\xc7\x97\xeb\x18J\xba\x16\xe2' <class 'bytes'>
+```
+
+## Spend tokens or assets
+
+Send some love, buy a virtual cup of coffee. Ask your neighbour for his NEO address and send him a couple of euro's:
+
+```
+wallet send EUR AMd14Q5C6YYGrz1cQA7GjfhgaNagrUkYzP 5 --from-addr=AH5HhymNXdQ14W4CbFjoqmkRPAcrjpSZRT
+```
+
+Now both check your wallet and notice that the tokens have moved:
+```
+wallet
 ```
 
 # Challenges
