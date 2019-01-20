@@ -33,7 +33,7 @@ git clone https://github.com/SmartEconomyWorkshop/workshop.git
 
 # Pull the Docker image and create a local container
 mkdir ~/smarteconomy/data
-docker run -it --name neo-console-userX -v ~/smarteconomy/data:/app/data --restart=unless-stopped smarteconomyworkshop/neo-python:userX
+sudo docker run -it --name neo-console-userX -v ~/smarteconomy/data:/app/data --restart=unless-stopped smarteconomyworkshop/neo-python:userX
 ```
 
 ### On Mac or Windows
