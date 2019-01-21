@@ -16,7 +16,7 @@ You can enter your e-mail address and join.
 
 Everybody will get a unique user id to be used during the workshop. For all tasks, please use only this unique number. When we mention `userX` in this documentation, then you should replace `X` with your unique number.
 
-## Preferred
+## On your own workstation
 
 We prefer that you install the requirements on your own workstation. Install Git and Docker on your workstation, start pulling the image and clone the workshop repository. Now you can connect to our dedicated private net and start using the NEO blockchain.
 
@@ -50,7 +50,7 @@ git clone https://github.com/SmartEconomyWorkshop/workshop.git
 docker run -it --name neo-console-userX -v ~/smarteconomy/data:/app/data --restart=unless-stopped smarteconomyworkshop/neo-python:userX
 ```
 
-## Alternative
+## Use the shared server
 
 If you are unable to use Docker on your workstation, you can get SSH access to our server and use Docker there. Please ask us for credentials and you can login using a shell terminal, like PuTTY on Windows.
 
