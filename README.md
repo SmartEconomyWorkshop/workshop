@@ -112,3 +112,8 @@ wallet
 
 # Challenges
 
+Please make sure to check out our [neo-boa code examples and documentation](examples/README.md) first.
+
+  When you are ready, go to [the challenges page](challenge/README.md) to pick your challange for today.
+
+    Good Luck!
