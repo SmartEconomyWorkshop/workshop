@@ -6,6 +6,8 @@
 
 # Introduction
 
+Please find [the Slides for the workshop here](https://docs.google.com/presentation/d/1sZLAg0eAJd8uYNDJ59orShX4vQZy-Z9hUaXb3frXwrU/edit).
+
 Welcome to the NEO Smart Economy workshop on Monday 21 January in Geneva. During the workshop, please join us on our Flock chat channel, so we can communicate with each other and share questions and information.
 
 [![Flock](http://static.flock.co/flock/images/flocklogo.png)](https://smarteconomy.flock.com/)
